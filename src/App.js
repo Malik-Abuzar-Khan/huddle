@@ -1,23 +1,16 @@
+import FLowConversation from './componenets/flow_conversations/FLowConversation';
+import GrowTogether from './componenets/grow_together/GrowTogether';
+import Header from './componenets/header/Header';
+import HeroSection from './componenets/hero_section/HeroSection';
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header />
+    <HeroSection />
+    <GrowTogether />
+    <FLowConversation />
     </div>
   );
 }

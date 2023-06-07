@@ -1,0 +1,17 @@
+.main_container {
+    background-image: url('../../assests/images/illustration-flowing-conversation.svg');
+    background-position: 16%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vh;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .inside_container {
+        width: 42%;
+        .para_container {
+            width: 73.75%;
+        }
+    }
+}
