@@ -6,7 +6,7 @@ const FLowConversation = () => {
     <div className={styles.main_container}>
       <div className={styles.inside_container}>
         <div>
-          <h3>grow together</h3>
+          <h3>Flow Conversations</h3>
           <div className={styles.para_container}>
             <p>
               Generate meaningful discussions with your audience strong, loyal

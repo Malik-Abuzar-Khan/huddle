@@ -1,0 +1,17 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    button {
+        background-color: #FF57BC;
+        padding: 16px 60px;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+        text-transform: capitalize;
+        box-shadow: 10px 10px 10px #e8e5e5;
+        cursor: pointer;
+    }
+}
