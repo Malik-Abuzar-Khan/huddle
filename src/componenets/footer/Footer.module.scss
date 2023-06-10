@@ -1,33 +1,70 @@
 .main_container {
-    background-size: 100%;
-    margin-top: 100px;
-    .cover_img {
-        width: 100%;
-        height: 100px;
-    }
-    .content_container {
-        background-color: #00252d;
-        transform: translateY(-5px);
-        .left_side {
-            width: 50%;
-            .inside_left {
-                width: 80%;
-                margin: 0 auto;
-                padding: 40px 20px;
-                .logo {
-                    width: 120px;
-                    height: 20px;
-                }
-                p {
-                    color: #fff;
-                    width: 20%;
-                    font-size: 14px;
-                    line-height: 18px;
-                    letter-spacing: 0.56px;
-                }      
-            }
-          
+  background-size: 100%;
+  margin-top: 100px;
+  .cover_img {
+    width: 100%;
+    height: 100px;
+  }
+  .content_container {
+    background-color: #00252d;
+    transform: translateY(-5px);
+    display: flex;
+    justify-content: space-between;
+    .left_side {
+        width: 50%;
+      
+      .inside_left {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 20px;
+        .logo {
+          width: 120px;
+          height: 20px;
         }
+        p {
+          color: #fff;
+          width: 20%;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 0.56px;
+        }
+        .flex_container {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          p {
+            white-space: nowrap;
+          }
+        }
+      }
     }
-
+    .right_section {
+        width: 50%;
+      h5 {
+        font-size: 22px;
+        margin-bottom: 12px;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      p {
+        color: #fff;
+        font-size: 12px;
+      }
+      input {
+        padding: 10px;
+        width: 250px;
+        border-radius: 5px;
+        outline-color: #ff57bc;
+      }
+      button {
+        background-color: #ff57bc;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 5px;
+        text-transform: capitalize;
+        color: #fff;
+        margin-left: 30px;
+      }
+    }
+  }
 }
